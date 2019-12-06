@@ -21,7 +21,7 @@ VERSION=stable
 # Set this to "1" in `RustConfig` to just install a Rust toolchain and not
 # build `Cargo.toml`.  This is useful if you have a project written in Ruby
 # or Node (for example) that needs to build extension modules using Rust.
-RUST_SKIP_BUILD=0
+RUST_SKIP_BUILD=1
 # If your Rust code is not at the root directory of the repository, specify a
 # `BUILD_PATH` to the correct directory in the `RustConfig`
 BUILD_PATH=""
